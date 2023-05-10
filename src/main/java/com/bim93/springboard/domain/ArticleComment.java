@@ -25,7 +25,7 @@ public class ArticleComment extends AuditingFields{
     private Article article;
 
     @Setter
-    @Column(nullable = false, length = 500)
+    @Column(nullable = false, length = 1000)
     private String content;
 
     protected ArticleComment() {

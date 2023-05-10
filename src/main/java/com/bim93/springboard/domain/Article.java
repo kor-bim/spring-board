@@ -24,7 +24,7 @@ public class Article extends AuditingFields{
     private Long id;
 
     @Setter
-    @Column(nullable = false)
+    @Column(nullable = false, length = 500)
     private String title;
 
     @Setter
