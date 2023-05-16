@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>게시판</title>
+</head>
+<body>
+<header th:replace="header :: header">
+</header>
+<main>
+    <form>
+        <select name="search-type" id="search-type" aria-label="search-type">
+            <option>전체</option>
+            <option>내용</option>
+            <option>id</option>
+            <option>닉네임</option>
+            <option>해시태그</option>
+        </select>
+        <input id="search-value" type="search" placeholder="검색어" name="search-value" aria-label="search-value"/>
+        <button type="submit">검색</button>
+    </form>
+    <table>
+        <thead>
+        <tr>
+            <th>제목</th>
+            <th>해시태그</th>
+            <th>작성자</th>
+            <th>작성일</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>sdfds</td>
+            <td>sdvs2wer2</td>
+            <td>sdfcswer21321</td>
+            <td>sdfds</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <nav>
+        <ul>
+            <li>이전</li>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+            <li>다음</li>
+        </ul>
+    </nav>
+</main>
+<footer th:replace="footer::footer">
+</footer>
+</body>
+</html>
