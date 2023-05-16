@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement />
+  <nodes />
+  <notes />
+  <edges />
+  <settings layout="계층" zoom="1.0" showDependencies="false" x="137.0" y="137.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>가상 외래 키</Category>
+    <Category>열</Category>
+    <Category>주석</Category>
+    <Category>키 열</Category>
+  </Categories>
+</Diagram>
+
